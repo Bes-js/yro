@@ -6,7 +6,7 @@
 <br/><br/>
 
 
-<a title="yro Downloads" href="https://npm-stat.com/charts.html?package=yro&from=2018-01-01&to=2023-08-01">
+<a title="yro Downloads" href="https://npm-stat.com/charts.html?package=yro">
   <img src="https://img.shields.io/npm/dy/yro" alt="Downloads per Year"/>
 </a>
 
