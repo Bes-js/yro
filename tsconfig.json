@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "allowJs": true,
+    "target": "ESNext",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "emitDeclarationOnly": false,
+    "moduleResolution": "node",
+    "module": "CommonJS",                        
+    "outDir": "./dist",                        
+    "rootDir": "./",                  
+    "strict": true,                           
+    "esModuleInterop": true,                
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "tsBuildInfoFile": ".tsbuildinfo"
+  },
+  "include": [
+   "/*",
+   "package.json",
+   "assets/*",
+   "README.md"
+  ],
+  "exclude": ["node_modules", "build", "**/*.spec.ts"]
+}

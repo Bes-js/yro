@@ -1,0 +1,147 @@
+{
+  "name": "yro",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "example": "./examples"
+  },
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "maintainers": [
+    {
+      "name": "Bes-js",
+      "url": "https://github.com/Bes-js"
+    },
+    {
+      "name": "Lulushu",
+      "url": "https://github.com/Luluwux"
+    }
+  ],
+  "homepage": "http://pm2.keymetrics.io/",
+  "description": "Production process manager for Node.JS applications with a built-in load balancer.",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test:unit": "bash test/unit.sh",
+    "test:e2e": "bash test/e2e.sh",
+    "test": "bash test/unit.sh && bash test/e2e.sh"
+  },
+  "keywords": [
+    "cli",
+    "fault tolerant",
+    "sysadmin",
+    "tools",
+    "yro",
+    "logs",
+    "log",
+    "json",
+    "express",
+    "hapi",
+    "kraken",
+    "reload",
+    "load balancer",
+    "lb",
+    "load-balancer",
+    "kubernetes",
+    "k8s",
+    "yro-docker",
+    "runtime",
+    "source maps",
+    "graceful",
+    "microservice",
+    "programmatic",
+    "harmony",
+    "node-yro",
+    "production",
+    "keymetrics",
+    "node.js monitoring",
+    "strong-pm",
+    "deploy",
+    "deployment",
+    "daemon",
+    "supervisor",
+    "supervisord",
+    "nodemon",
+    "ghost",
+    "ghost production",
+    "monitoring",
+    "monit",
+    "keymetrics",
+    "process manager",
+    "forever",
+    "profiling",
+    "probes",
+    "apm",
+    "container",
+    "forever-monitor",
+    "keep process alive",
+    "process configuration",
+    "clustering",
+    "cluster cli",
+    "cluster",
+    "docker",
+    "cron",
+    "devops",
+    "dev ops",
+    "pm2",
+    "pm2"
+  ],
+  "bin": {
+    "yro": "bin/yro",
+    "yro-dev": "bin/yro-dev",
+    "yro-docker": "bin/yro-docker",
+    "yro-runtime": "bin/yro-runtime"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.6.0",
+    "@pm2/agent": "~2.1.1",
+    "@pm2/io": "~6.1.0",
+    "ansis": "4.0.0-node10",
+    "async": "~3.2.6",
+    "blessed": "0.1.81",
+    "chokidar": "^3.5.3",
+    "cli-tableau": "^2.0.0",
+    "commander": "2.15.1",
+    "croner": "~4.1.92",
+    "dayjs": "~1.11.13",
+    "debug": "^4.3.7",
+    "enquirer": "2.3.6",
+    "eventemitter2": "5.0.1",
+    "fclone": "1.0.11",
+    "js-yaml": "~4.1.0",
+    "mkdirp": "1.0.4",
+    "needle": "2.4.0",
+    "pidusage": "~3.0",
+    "pm2-axon": "~4.0.1",
+    "pm2-axon-rpc": "~0.7.1",
+    "pm2-deploy": "~1.0.2",
+    "pm2-multimeter": "^0.1.2",
+    "promptly": "^2",
+    "semver": "^7.6.2",
+    "source-map-support": "0.5.21",
+    "sprintf-js": "1.1.2",
+    "vizion": "~2.2.1"
+  },
+  "optionalDependencies": {
+    "pm2-sysmonit": "^1.2.8"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.0",
+    "should": "^13.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Bes-js/yro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bes-js/yro.git"
+  },
+  "license": "AGPL-3.0"
+}
